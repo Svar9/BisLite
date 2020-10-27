@@ -1,0 +1,12 @@
+.header {
+    background-color: #e8ebf1;
+    border-bottom: 1px solid #6ec2ca;
+
+}
+
+.header__inner{
+    min-height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

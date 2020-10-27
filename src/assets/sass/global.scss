@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+a:active, 
+a:hover,  
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p,
+h2,
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1030px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.title {
+    color: #000;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
