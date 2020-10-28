@@ -1,0 +1,71 @@
+.clients {
+    padding-top: 25px;
+    margin-bottom: 40px;
+}
+
+.clients__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.clients__testimonals {
+    width: 50%;
+
+    &--title {
+        padding-left: 40px;
+        position: relative;
+        margin-bottom: 20px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            background-image: url(../images/icons/comments.svg);
+            height: 24px;
+            width: 24px;
+        }
+    }
+
+    &--text {
+        font-size: 14px;
+        line-height: 24px;
+        color: #363636;
+        margin-bottom: 30px;
+        padding-right: 10px;
+    }
+
+    &--author {
+        font-weight: 700;
+        font-style: italic;
+        font-size: 14px;
+        line-height: 24px;
+
+    }
+}
+
+.clients__ourclients{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    &--title {
+        padding-left: 50px;
+        position: relative;
+        margin-bottom: 20px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 24px;
+            height: 20px;
+            background-image: url(../images/icons/clients.svg);
+            left: 0;
+        }
+    }
+
+    &--img {
+        align-self: flex-end;
+        margin-left: auto;
+    }
+}
