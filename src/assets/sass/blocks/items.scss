@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     font-size: 13px;
+    flex-wrap: wrap;
 }
 
 .item__title {
@@ -30,9 +31,14 @@
     align-items: center;
 }
 
+.item {
+    width: 230px;
+    padding-right: 10px;
+}
+
 .item__text {
     margin-bottom: 25px;
-    max-width: 230px;
+    
     font-size: 13px;
     line-height: 20px;
 }

@@ -11,6 +11,7 @@
 .footer__inner{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer__title {
@@ -18,7 +19,7 @@
 }
 
 .footer__about {
-    max-width: 240px;
+    width: 240px;
     font-size: 14px;
 }
 
@@ -33,21 +34,23 @@
 }
 
 .footer__contact {
-    max-width: 150px;
+    width: 150px;
 }
 
 .footer__connect {
-    max-width: 190px;
 
     &--title {
-        padding-left: 10px;
+        text-align: left;
         padding-bottom: 20px;
     }
 }
 
 .footer__social {
+    width: 185px;
     text-align: right;
     margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
     & img:hover {
         opacity: .8;
     }
